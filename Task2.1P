@@ -20,7 +20,7 @@ void setup() {
     delay(2000);
   }
   
-  Serial.println("\nWiFi Connected!");
+  Serial.println("\nWiFi Connected");
   dht.begin();
   ThingSpeak.begin(client);
 }
@@ -47,5 +47,5 @@ void loop() {
     Serial.print("Data has failed to send"); Serial.println(status);
   }
 
-  delay(60000); 
+  delay(50000); 
 }
