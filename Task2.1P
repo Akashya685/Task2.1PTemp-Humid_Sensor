@@ -14,7 +14,7 @@ void setup() {
   Serial.begin(115200);
   WiFi.begin(SECRET_SSID, SECRET_PASS);
   
-  Serial.print("Connecting to WiFi...");
+  Serial.print("Connecting to WiFi");
   while (WiFi.status() != WL_CONNECTED) {
     Serial.print(".");
     delay(2000);
