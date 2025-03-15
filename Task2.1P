@@ -47,5 +47,5 @@ void loop() {
     Serial.print("Data has failed to send"); Serial.println(status);
   }
 
-  delay(50000); 
+  delay(60000); 
 }
